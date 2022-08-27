@@ -40,9 +40,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class                        instance  | title       tags mask   isfloating   monitor */
-	{ "Chromium",                   NULL,       NULL,      1 << 0,              -1,         -1 },
-	{ NULL,                         "term",     NULL,      1 << 1,              -1,          -1 },
-	{ "Code",                      	"code",     	NULL,       1 << 2,              -1,         -1 },
+	{ "Chromium",                   NULL,       NULL,      1 << 0,              0,         -1 },
+	{ NULL,                         "term",     NULL,      1 << 1,              0,          -1 },
+	{ "Code",                      	"code",     	NULL,       1 << 2,            0,         -1 },
 	{ "jetbrains-studio",           NULL,       NULL,      1 << 3,               -1,             -1 },
 	{ "React Native Debugger",      NULL,       NULL,      1 << 4,               -1,           -1 },
 	{ "Spotify",                    "spotify",       NULL,      1 << 4,               -1,           -1 },
