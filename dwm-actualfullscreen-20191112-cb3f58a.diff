@@ -1,0 +1,24 @@
+diff --git a/config.h b/config.h
+index 76c878a..91f7b57 100644
+--- a/config.h
++++ b/config.h
+@@ -57,11 +57,12 @@ static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen win
+ 
+ static const Layout layouts[] = {
+ 	/* symbol     arrange function */
++	{ "[M]",      monocle },
+ 	{ "[]=",      tile },    /* first entry is default */
+ 	{ "><>",      NULL },    /* no layout function means floating behavior */
+-	{ "[M]",      monocle },
+ };
+ 
++
+ /* key definitions */
+ #define MODKEY Mod1Mask
+ #define TAGKEYS(KEY,TAG) \
+diff --git a/dwm b/dwm
+index bb80492..c053438 100755
+Binary files a/dwm and b/dwm differ
+diff --git a/dwm.o b/dwm.o
+index df31576..5cc56c3 100644
+Binary files a/dwm.o and b/dwm.o differ
